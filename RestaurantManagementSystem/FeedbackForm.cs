@@ -16,7 +16,7 @@ namespace RestaurantManagementSystem
     {
         IMongoCollection<Feedback> feedbackCollection;
         public FeedbackForm()
-        {
+        {// this is the feedback
             InitializeComponent();
 
             var connectionString = ConfigurationManager.ConnectionStrings["DatabaseConnection"].ConnectionString;
